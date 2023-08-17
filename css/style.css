@@ -387,7 +387,7 @@ padding-left: 0;
 color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.customer-box {
+.customer-icon {
 fill: currentColor;
 }
 
@@ -406,13 +406,72 @@ border-color: #404bbf;
   flex-basis: calc((100% - 72px) / 4);
 }
            
-.portfolio-text {
-  color: var(--color-text);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.foot-set {
+padding-left: 80px;
+
+
 }
+
+.foot-text {
+color: var(--white, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.32px;
+}
+
+.foot-email {
+display: flex;
+gap: 24px;
+}
+
+.foot-label {
+display: flex;
+}
+
+.foot-input {
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-size: 12px;
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--color-white-background);
+  padding-left: 16px;
+  color: var(--color-white-background);
+  background-color: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.foot-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-white-background);
+  cursor: pointer;
+  background: var(--color-primary-brand);
+  border: none;
+  border-radius: 4px;
+}
+.foot-button:hover,
+.foot-button:focus {
+  background-color: var(--color-pressed-state);
+}
+
+.foot-svg {
+  fill: var(--color-white-background);
+  margin-left: 16px;
+}
+
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
@@ -496,7 +555,13 @@ border-color: #404bbf;
   margin-bottom: 8px;
 }
 
-
+.portfolio-text {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 .portfolio-link-button {
   font-family: inherit;
