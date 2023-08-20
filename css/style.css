@@ -426,6 +426,7 @@ img {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
+  margin-bottom: 16px;
 }
 
 .foot-email {
@@ -449,6 +450,7 @@ img {
   background-color: transparent;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .foot-input::placeholder {
@@ -763,6 +765,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   margin-bottom: 16px;
   color: var(--color-dark);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .modal-form {
@@ -866,6 +870,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.check-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .modal-checkbox.visually-hidden {
